@@ -1,0 +1,135 @@
+body{
+    background:black;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#application{
+    font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+    color: black;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1054px;
+    margin: auto
+}
+
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 801px){
+    .form-entry{
+        width: 99%;
+        padding: 1%;
+    }
+    
+    .log-area{
+        width: 99%;
+        padding: 1%;
+    }
+}
+
+@media screen and (min-width: 801px){
+    .form-entry{
+        width: 48%;
+        padding: 1%;
+    }
+
+    .log-area{
+        width: 48%;
+        padding: 1%;
+    }
+}
+
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+}
+
+.prev-title{
+    padding-top: 6%;
+}
+
+.myInput{
+    width: 100%;
+}
+
+#zip{
+    width: 100%;
+}
+
+
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 100%;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+::placeholder { 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
